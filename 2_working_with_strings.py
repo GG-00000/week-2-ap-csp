@@ -35,9 +35,11 @@ print("Is Uppercase?", phrase.isupper())  # Output: False
 print("name ", name.isupper())
 print("name ", name.capitalize())
 # # Find the length of the string
-# print("Length of phrase:", len(phrase))  # Output: 14
-
+print("Length of phrase:", len(phrase))  # Output: 14
+decleration_of_independance = "When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation"
+print("Lenght of phrase:",len(decleration_of_independance))
 # # ----------------------------------------
+
 # # 3. Indexing and Slicing
 # # ----------------------------------------
 
