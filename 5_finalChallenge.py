@@ -17,3 +17,15 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+print("Lets make a cool name for this new beer")
+print("We will combine your favorite animal with your favorite color to make the name")
+
+fav_animal = input("Whats your favorite animal?")
+fav_color = input("Whats your favorite color?")
+
+print(f"Ok so your favorite animal is", fav_animal," and your favorite color is ", fav_color )
+
+print("The new name for the beer will be....")
+
+print(fav_color + fav_animal )
