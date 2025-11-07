@@ -20,15 +20,25 @@ print(500 + 55)
 ##############################################################################################################
 # Find 3 objects around the room and create variables from it,
 # Insert those variables into an f-string sentence(look at slide 22)in repl.it
+chair = "chair"
+laptop = "laptop"
+book = "book"
+print(f"In my room, I have a {chair}, a {laptop}, and a {book}.")
 
 
 # Familiarize yourself with the syntax of the print() function.
 # Print your name.
 # Print today's date.
 # Print the name of your favorite movie.
-
+print("Gerardo Gutierrez")
+print("November 6, 2025")
+print("Blue Beetle")
+print("Gerardo Gutierrez\n16 years old")
 # Print your name and age on separate lines using a single print() function.
 # Use f-strings to print a message like: "In 10 years, [Your Name] will be [Your Age + 10] years old."
+name = "Gerardo Gutierrez"
+age = 16
+print(f"In 10 years, {name} will be {age + 10} years old.")
 
 ##############################################################################################################
 
@@ -46,16 +56,28 @@ print(500 + 55)
 #challenge
 # find a summary of the movie blue beetle online and create a 
 # variable called blue_beetle_summary and print it it out to the screen
-
+blue_beetle_summary = (
+    "Blue Beetle is a superhero film about Jaime Reyes, a young man who gains extraordinary powers "
+    "when an alien scarab chooses him as its host, transforming him into the Blue Beetle."
+    )
 # print the length of the summary
+print(len(blue_beetle_summary))
 # upper case the entire summary
+print(blue_beetle_summary.upper())
 # print the summary
+print(blue_beetle_summary)
 # print the summary in lowercase
+print(blue_beetle_summary.lower())
 # replace the word blue with red
+print(blue_beetle_summary.replace("Blue", "Red"))
 # print the summary
+print(blue_beetle_summary)
 # string index the word beetle and print it out
+
 # print the last word of the summary
+print(blue_beetle_summary.split()[-1])
 # print the summary in reverse
+print(blue_beetle_summary[::-1])
 
 
 ##########################input practice#############################################
@@ -66,21 +88,27 @@ print(500 + 55)
 # Write Python code that allows the user to enter their answer, by making them the following question:
 # What are you learning today?
 # Your code must be able to print to the screen whatever is entered by the user (use the print function).
-
+learning = input("What are you learning today? ")
+print(learning)
 # Input Practice #2
 # Write Python code that allows the user to enter their answer, by making them the following question:
 # Where are you from?
 # Your code must be able to print to the screen whatever is entered by the user (use the print function).
-
+location = input("Where are you from? ")
+print(location)
 # Input Practice #3
 # Write Python code that displays the user's full name on the screen, by allowing them to enter their first and last name with the following instructions:
 # What is your name?
 # What is your surname?
 # The code must be able to print the user's first and last name on the screen, separated by a space.
-
+first_name = input("What is your name? ")
+surname = input("What is your surname? ")
+print(first_name + " " + surname)
 # Exercise:
 # Write a program that asks the user for their name and favorite color, then prints a message using both pieces of information.
-
+user_name = input("What is your name? ")
+favorite_color = input("What is your favorite color? ")
+print(f"Hello {user_name}, your favorite color is {favorite_color}!")
 
 
 
